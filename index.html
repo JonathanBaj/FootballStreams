@@ -25,7 +25,7 @@
             display: flex;
             width: 100%;
             height: 100%;
-            margin-top: 425px;
+            margin-top: 275px;
         }
 
         .top_container{
@@ -55,7 +55,7 @@
             top: 250;
             left: 50%;
             width: 6px;
-            height: 150vh;
+            height: 57.1vh;
             background-color: rgb(0, 132, 255);
             z-index: 0;
         }
@@ -127,10 +127,14 @@
                 video.addEventListener('loadedmetadata', () => video.play());
             }
         }
-        
+
         initializeVideo('video1', 'https://main.clmbosean.space/playlist/26585/main.clmbosean.space/caxi.m3u8'); //CHANGE FOR DIFFERENT STREAM (left stream)
         initializeVideo('video2', 'https://csty.azureedge.net/playlist/26609/ggg.silntclud.site/caxi.m3u8'); //CHANGE FOR DIFFERENT STREAM (right stream)
         initializeVideo('video3', 'https://csty.azureedge.net/playlist/26608/ggg.silntclud.site/caxi.m3u8'); //CHANGE FOR DIFFERENT STREAM (top stream)
+
+        // Might need to run this: 
+        // 1. cd "C:/Users/jonat/OneDrive/Desktop/Code/HtmlRandom/"
+        // 2. python -m http.server 8000
 
     </script>
 </body>
